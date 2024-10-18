@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <title>Prototype</title>
-  <link href="css/styles.css" rel="stylesheet">
    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
@@ -17,18 +16,18 @@
       $("label").addClass("form-label");
     });
     </script>
-    <link href="{% static 'styles.css' %}" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
   <!--<div class="container-fluid p-5 bg-primary text-white text-center">-->
   <div class="container-fluid p-3 text-center text-white" style="background-color: purple;">
-    <h1 class="display-1">[Logo Placeholder]</h1>
+    <h1>[Logo Placeholder]</h1>
   </div>
   <main>
     <div class="container-fluid mt-3 w3-border w3-padding w3-round ws-grey">
         <div class="container-fluid mt-3">
-            <h2 class="fs-3">Welcome to the Prototype Page!</h2>
+            <h2>Welcome to the Prototype Page!</h2>
             <!--<p>{{ service_message }}</p>-->
             <form action="/" method="post">
               <div class="mb-3 mt-3">
@@ -38,8 +37,8 @@
             </form>
         </div>
         <div class="container-fluid mt-3">
-            <h2 class="fs-3">Community Questions</h2>
-            <div class="fs-5 container-fluid mt-3 p-2 bg-light">
+            <h2>Community Questions</h2>
+            <div class="container-fluid mt-3 p-2 bg-light">
                 <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:0%">70%</div>
                 </div>
@@ -66,9 +65,9 @@
                 <div class="carousel-item active">
                     <div class="card" style="background-color: purple;">
                         <div class="card-body">
-                          <h4 class="fs-3 card-title text-white text-center">User 1</h4>
-                          <p class="fs-5 text-light text-center">What shall I eat? <span class="badge bg-secondary bg-danger">New</span></p>
-                          <p class="fs-5 text-light text-center">
+                          <h4 class="card-title text-white text-center">User 1</h4>
+                          <p class="text-light text-center">What shall I eat? <span class="badge bg-secondary bg-danger">New</span></p>
+                          <p class="text-light text-center">
                             <button class="btn btn-primary" type="submit">Give Advice!</button>
                             <button class="btn btn-success" type="submit" data-bs-toggle="popover" title="Saved!" data-bs-content="You're following Hugo's question now">Follow</button>
                           </p>
@@ -78,9 +77,9 @@
                 <div class="carousel-item">
                     <div class="card" style="background-color: purple;">
                         <div class="card-body">
-                          <h4 class="fs-3 card-title text-white text-center">User 2</h4>
-                          <p class="fs-5 text-light text-center">To drink or not to drink? <span class="badge bg-secondary bg-secondary">1 week ago</span></p>
-                          <p class="fs-5 text-light text-center">
+                          <h4 class="card-title text-white text-center">User 2</h4>
+                          <p class="text-light text-center">To drink or not to drink? <span class="badge bg-secondary bg-secondary">1 week ago</span></p>
+                          <p class="text-light text-center">
                                 <button class="btn btn-primary" type="submit">Give Advice!</button>
                                 <button class="btn btn-success" type="submit" data-bs-toggle="popover" title="Saved!" data-bs-content="You're following Lisa's question now">Follow</button>
                           </p>
@@ -90,9 +89,9 @@
                 <div class="carousel-item">
                     <div class="card" style="background-color: purple;">
                         <div class="card-body">
-                          <h4 class="fs-3 card-title text-white text-center">User 3</h4>
-                          <p class="fs-5 text-light text-center">Am I a performer or a procrastinator? <span class="badge bg-secondary bg-secondary">2 months ago</span></p>
-                          <p class="fs-5 text-light text-center">
+                          <h4 class="card-title text-white text-center">User 3</h4>
+                          <p class="text-light text-center">Am I a performer or a procrastinator? <span class="badge bg-secondary bg-secondary">2 months ago</span></p>
+                          <p class="text-light text-center">
                             <button class="btn btn-primary" type="submit">Give Advice!</button>
                             <button class="btn btn-success" type="submit" data-bs-toggle="popover" title="Saved!" data-bs-content="You're following Kai's question now">Follow</button>
                           </p>
